@@ -1,0 +1,61 @@
+        body{
+            background: linear-gradient(90deg, rgba(165,199,255,1) 0%, rgba(89,149,255,1) 50%, rgba(69,114,252,1) 100%);
+        }
+        #body{
+            display:flex;
+            justify-content: space-between;
+            padding: 30px;
+            
+        }
+        #nav{
+            width: auto;
+            margin: auto;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: rgba(78, 108, 255, 0.283);
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        #nav>input{
+            background-color: rgba(78, 108, 255, 0.963);
+            border-radius: 3px;
+            border: 0px;
+            padding: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            text-align: center;
+        }
+        #btn{
+            color: red;
+            font-weight: bold;
+            width:100px;
+        }
+        #days{
+            width:30px;
+        }
+        #view{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            border-radius: 10px;
+            width:45%;
+            padding: 10px;
+            text-align: center;
+        }
+        #dayView{
+            display: grid;
+            grid-template-columns: repeat(60,1fr);
+            overflow-x: scroll;
+            margin: auto;
+        }
+        #dayView>div{
+            background-color: rgba(192, 192, 192, 0.283);
+            border-radius: 10px;
+            padding:10px;
+            margin:10px;
+            width:150px;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        }
+        .gmap_canvas{
+            border-radius: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        }
